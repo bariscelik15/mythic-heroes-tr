@@ -1,0 +1,28 @@
+import React from 'react';
+import { Scroll, Feather, Sparkles, BookOpen, Trash2, History, ChevronRight, Wand2, Smartphone, Film, Hourglass, Volume2, Square, Loader2, Download, Image as ImageIcon, Palette, Layout, Mic, Captions, Sword, Shield, Hammer, Music, Music2, LucideProps } from 'lucide-react';
+
+export const IconScroll = (props: LucideProps) => <Scroll {...props} />;
+export const IconFeather = (props: LucideProps) => <Feather {...props} />;
+export const IconSparkles = (props: LucideProps) => <Sparkles {...props} />;
+export const IconBook = (props: LucideProps) => <BookOpen {...props} />;
+export const IconTrash = (props: LucideProps) => <Trash2 {...props} />;
+export const IconHistory = (props: LucideProps) => <History {...props} />;
+export const IconChevronRight = (props: LucideProps) => <ChevronRight {...props} />;
+export const IconWand = (props: LucideProps) => <Wand2 {...props} />;
+export const IconSmartphone = (props: LucideProps) => <Smartphone {...props} />;
+export const IconFilm = (props: LucideProps) => <Film {...props} />;
+export const IconHourglass = (props: LucideProps) => <Hourglass {...props} />;
+export const IconVolume = (props: LucideProps) => <Volume2 {...props} />;
+export const IconStop = (props: LucideProps) => <Square {...props} />;
+export const IconLoader = (props: LucideProps) => <Loader2 {...props} />;
+export const IconDownload = (props: LucideProps) => <Download {...props} />;
+export const IconImage = (props: LucideProps) => <ImageIcon {...props} />;
+export const IconPalette = (props: LucideProps) => <Palette {...props} />;
+export const IconLayout = (props: LucideProps) => <Layout {...props} />;
+export const IconMic = (props: LucideProps) => <Mic {...props} />;
+export const IconCaptions = (props: LucideProps) => <Captions {...props} />;
+export const IconSword = (props: LucideProps) => <Sword {...props} />;
+export const IconShield = (props: LucideProps) => <Shield {...props} />;
+export const IconHammer = (props: LucideProps) => <Hammer {...props} />;
+export const IconMusic = (props: LucideProps) => <Music {...props} />;
+export const IconMusicOff = (props: LucideProps) => <Music2 {...props} />;
